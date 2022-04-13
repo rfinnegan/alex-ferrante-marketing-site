@@ -122,7 +122,7 @@ const VideoList = [
   {
     id: 9,
     type: 'image',
-    company: 'Rebdull TV',
+    company: 'Redbull TV',
     title: 'Reel Rock Seasons 5-7',
     year: '2018-2021',
     positions: [

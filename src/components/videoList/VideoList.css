@@ -8,6 +8,12 @@
 }
 
 .videolist-content {
+  flex-grow: 1;
+  min-width: min(100%, 640px);
+  max-width: 640px;
+  max-height: 360px;
   margin-left: 2em;
   margin-right: 2em;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
