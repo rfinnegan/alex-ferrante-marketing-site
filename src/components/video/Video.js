@@ -9,19 +9,16 @@ const Video = ({ video }) => {
   return (
     <div className="video-container">
       <div className="video-subcontainer">
-        <div className="video-subcontainer__video">
-          <iframe
-            width={video.width}
-            height={video.height}
-            src={video.src}
-            title={video.title} frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen>
-          </iframe>
-          <div>{video.company} "{video.title}" {video.year}</div>
-          {/* <div className="video-about">{shouldShow ? video.about : null}</div> */}
-          {/* <button onClick={onShouldShow}>about</button> */}
-        </div>
+        <iframe
+          className="video-container__iframe"
+          src={video.src}
+          title={video.title} frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen>
+        </iframe>
+        <div>{video.company} "{video.title}" {video.year}</div>
+        {/* <div className="video-about">{shouldShow ? video.about : null}</div> */}
+        {/* <button onClick={onShouldShow}>about</button> */}
       </div>
     </div>
   )

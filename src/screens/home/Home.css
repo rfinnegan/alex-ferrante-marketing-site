@@ -24,6 +24,7 @@ a {
   padding-bottom: .3em;
 
   font-size: 2em;
+  overflow-wrap: break-word;
 
 }
 
