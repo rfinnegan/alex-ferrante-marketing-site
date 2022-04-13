@@ -1,0 +1,13 @@
+.videolist-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin: 1em;
+}
+
+.videolist-content {
+  margin-left: 2em;
+  margin-right: 2em;
+}

@@ -1,0 +1,42 @@
+* {
+  margin: 0;;
+}
+
+.home-container {
+  padding: 0;
+  margin: 0;
+  /* background-image: url('./home.jpg');
+  background-position:right; */
+}
+
+.home-content {
+  text-align: center;
+  color:azure;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.info-container {
+  padding-top: .3em;
+  padding-bottom: .3em;
+
+  font-size: 2em;
+
+}
+
+a:hover {
+  color: red;
+}
+
+.icon-container {
+  display: inline;
+
+  padding-top: .2em;
+  padding-bottom: .2em;
+
+  text-align: center;
+  font-size: 3em;
+}

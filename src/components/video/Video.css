@@ -1,0 +1,56 @@
+.video-container {
+  display: flex;
+  flex-flow: row;
+  flex-grow: 1;
+  justify-content: space-between;
+  
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+
+  color: #eee;
+}
+
+.video-subcontainer {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+
+  position: relative;
+  width: 640px;
+  height: 360px;
+}
+
+.video-subcontainer__video {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.video-subcontainer__description {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+
+  background-color: rgba(30, 30, 30, .85);
+  text-align: center;
+
+}
+
+.video-subcontainer-overlay {
+  height: 100%;
+  width: 100%;
+}
+
+.video-subcontainer > .video-subcontainer__description {
+  visibility: hidden;
+}
+
+/* On hover, make the child visible */
+.video-subcontainer:hover > .video-subcontainer__description {
+  visibility: visible;
+}
