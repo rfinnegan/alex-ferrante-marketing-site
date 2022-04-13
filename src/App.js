@@ -11,9 +11,8 @@ const App = () => {
   
 
   return (
-    <div class="app-content">
-      <Menu />
-      <div class="router"><Router /></div>
+    <div className="app-content">
+      <div className="router"><Router /></div>
     </div>
   )
 }

@@ -11,17 +11,17 @@ const Image = ({ image }) => {
   }
 
   return (
-    <div class="image-container">
-      <div class="image-subcontainer">
-        <div class="image-subcontainer__image">
+    <div className="image-container">
+      <div className="image-subcontainer">
+        <div className="image-subcontainer__image">
           <img width={image.width} height={image.height}
           src={image.src}
           alt={image.title}
           ></img>
 
         </div>
-        <div onClick={onOverlayClick} class="image-subcontainer__description">
-          <div class="image-subcontainer-overlay">
+        <div onClick={onOverlayClick} className="image-subcontainer__description">
+          <div className="image-subcontainer-overlay">
             <h2>
             <div>{image.company}</div>
             <div>"{image.title}"</div>

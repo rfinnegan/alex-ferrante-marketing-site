@@ -6,8 +6,8 @@ const Menu = () => {
   }
 
   return (
-      <div class="menu-container">
-        <div class="menu-content">
+      <div className="menu-container">
+        <div className="menu-content">
               <a style={padding} href="/home">Home</a>
               <a style={padding} href="/portfolio">Portfolio</a>
         </div>
