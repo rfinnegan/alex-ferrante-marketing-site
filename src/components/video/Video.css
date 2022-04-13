@@ -6,7 +6,7 @@
   
   text-align: center;
   margin-top: 2em;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 
   color: #eee;
 }
@@ -27,6 +27,8 @@
   left: 0px;
   height: 100%;
   width: 100%;
+  font-size: 2em;
+
 }
 
 .video-subcontainer__description {
