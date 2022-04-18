@@ -1,10 +1,21 @@
-import React from 'react'
-import './Video.css'
+import React, { useState } from 'react'
+import { mediaService } from '../../services';
+import './Video.css';
 
 const Video = ({ video }) => {
-  // const [shouldShow, setShouldShow] = useState(false)
-  // const onShouldShow = () => { setShouldShow(!shouldShow)
-  // }
+  const [height, setHeight] = useState(0);
+  const idealAspectRatio = 16.0 / 9.0;
+  const resizeThrottleDelayMs = 60;
+
+  const onSizeChanged = (newHeight) => {
+    setHeight(newHeight);
+  };
+
+  const mediaElementReference = mediaService.handleAspectRatio({ idealAspectRatio, resizeThrottleDelayMs, onSizeChanged });
+
+  const dynamicHeightStyle = {
+    height: `${height}px`,
+  };
 
   return (
     <div className="video-container">
@@ -12,9 +23,13 @@ const Video = ({ video }) => {
         <iframe
           className="video-container__iframe"
           src={video.src}
-          title={video.title} frameBorder="0"
+          title={video.title}
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen>
+          allowFullScreen
+          ref={mediaElementReference}
+          style={dynamicHeightStyle}
+        >
         </iframe>
         <div>{video.company} "{video.title}" {video.year}</div>
         {/* <div className="video-about">{shouldShow ? video.about : null}</div> */}
