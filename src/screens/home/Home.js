@@ -11,21 +11,22 @@ const Home = () => {
   }, [])
 
   const padding = {
-    padding: 15
+    padding: 10
   }
 
   return (
     <div className="home-container">
       <div className="home-content">
-      <h1>ALEXANDER FERRANTE</h1>
-      <h2>Editor | VFX | Motion GFX</h2>
+        <h1>ALEXANDER FERRANTE</h1>
+        <h2>Editor | VFX | Motion GFX</h2>
+      </div>
       <div className="icon-container">
-        <a style={padding} href="https://www.instagram.com/alexferrante_/?hl=en"><FontAwesomeIcon icon={faInstagram} /></a>
-        <a style={padding}href="https://www.imdb.com/name/nm12223333/"><FontAwesomeIcon icon={faImdb} /></a>
+        <a style={padding} href="https://www.imdb.com/name/nm12223333/"><FontAwesomeIcon icon={faImdb} /></a>
         <a style={padding} href="mailto:alexanderferrante@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+        <a style={padding} href="https://www.instagram.com/alexferrante_/?hl=en"><FontAwesomeIcon icon={faInstagram} /></a>
       </div>
       <Portfolio />
-    </div>
+      <p>Alexander Ferrante 2022 &copy;</p>
     </div>
   )
 }

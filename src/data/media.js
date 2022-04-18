@@ -7,9 +7,7 @@ const VideoList = [
     company: 'Universal Pictures',
     title: 'The Alpinist',
     year: '2021',
-    positions: [
-      'Visual Effects'
-    ],
+    positions: 'Visual Effects',
     src: "https://www.youtube.com/embed/SRpVyzagXLQ",
     height: 360,
     width: 640,
@@ -21,10 +19,7 @@ const VideoList = [
     company: 'Tradingview',
     title: 'Look First, Then Leap',
     year: '2021',
-    positions: [
-      'Co-Editor',
-      'Motion Graphics'
-    ],
+    positions: 'Co-Editor, Motion Graphics',
     src: "https://www.youtube.com/embed/ka3fM7euWq8",
     height: 360,
     width: 640,
@@ -36,10 +31,7 @@ const VideoList = [
     company: 'Reel Rock',
     title: 'Reel Rock 15 (Series)',
     year: '2020',
-    positions: [
-      'Editor',
-      'Motion Graphics'
-    ],
+    positions: 'Editor, Motion Graphics',
     src: "https://www.youtube.com/embed/ICdrB6YcXI8",
     height: 360,
     width: 640,
@@ -51,10 +43,7 @@ const VideoList = [
     company: 'Mango',
     title: 'The Travel Suit',
     year: '2019',
-    positions: [
-      'Co-Editor',
-      'Motion Graphics'
-    ],
+    positions: 'Co-Editor, Motion Graphics',
     src: "https://www.youtube.com/embed/Ch-vVOLLh-M",
     height: 360,
     width: 640,
@@ -66,9 +55,7 @@ const VideoList = [
     company: 'Google Maps',
     title: 'Grand Canyon Kayakers',
     year: '2018',
-    positions: [
-      'Motion Graphics',
-    ],
+    positions: 'Motion Graphics',
     src: "https://www.youtube.com/embed/WH9xGn5cIkQ",
     height: 360,
     width: 640,
@@ -80,10 +67,7 @@ const VideoList = [
     company: 'Game Audio Network Guild',
     title: 'Annual Awards',
     year: '2020-2021',
-    positions: [
-      'Producer',
-      'Editor'
-      ],
+    positions: 'Producer, Editor',
     src: "https://www.youtube.com/embed/MvD1HdMaP3w",
     height: 360,
     width: 640,
@@ -95,10 +79,7 @@ const VideoList = [
     company: 'Reel Rock',
     title: 'Reel Rock 14 (Series)',
     year: '2019',
-    positions: [
-      'Assistant Editor',
-      'Motion Graphics'
-    ],
+    positions: 'Assistant Editor, Motion Graphics',
     src: "https://www.youtube.com/embed/nBPGrQbQGv4",
     height: 360,
     width: 640,
@@ -110,10 +91,7 @@ const VideoList = [
     company: 'Reel Rock',
     title: 'Reel Rock 13 (Series)',
     year: '2018',
-    position: [
-      'Assistant Editor',
-      'Motion Graphics'
-    ],
+    positions: 'Assistant Editor, Motion Graphics',
     src: "https://www.youtube.com/embed/6sPzkBzOvB8",
     height: 360,
     width: 640,
@@ -125,12 +103,7 @@ const VideoList = [
     company: 'Redbull TV',
     title: 'Reel Rock Seasons 5-7',
     year: '2018-2021',
-    positions: [
-      'Editor',
-      'Assistant Editor',
-      'Motion Graphics',
-      'VFX'
-    ],
+    positions: 'Editor, Assistant Editor, Motion Graphics, VFX',
     src: reelRockSeasons5To7Image,
     height: 360,
     width: 640,

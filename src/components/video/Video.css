@@ -7,8 +7,6 @@
   text-align: center;
 
   width: 100%;
-
-  color: #eee;
 }
 
 .video-subcontainer {
@@ -18,9 +16,21 @@
   justify-content: space-between;
 
   position: relative;
-  font-size: 2em;
 }
 
 .video-container__iframe {
   flex-grow: 1;
+}
+
+.video-container_description {
+  color: black;
+  font-size: 1.55em;
+  white-space: nowrap;
+}
+
+.video-container-positions {
+  color: #c4c4c4;
+  font-size: .8em;
+  font-weight: 660;
+  white-space: nowrap;
 }
