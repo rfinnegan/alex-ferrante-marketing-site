@@ -24,13 +24,6 @@ const Home = () => {
         <a style={padding}href="https://www.imdb.com/name/nm12223333/"><FontAwesomeIcon icon={faImdb} /></a>
         <a style={padding} href="mailto:alexanderferrante@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
       </div>
-      <div className="info-container">
-        <div>alexanderferrante@gmail.com</div>
-        <div>text (203) 460-6046</div>
-      </div>
-      <p>
-        contact me and make your editing dreams a reality.
-      </p>
       <Portfolio />
     </div>
     </div>
