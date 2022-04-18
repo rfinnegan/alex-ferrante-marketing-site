@@ -2,14 +2,13 @@ h1 {
   font-size: 3em;
   margin-top: 0px;
   margin-bottom: 0px;
+  color: black;
+  font-weight: lighter;
 }
 
 h2 {
-  font-size: 1.5em;
-  color:lightslategrey
-}
-
-p {
-  font-size: 1.5em;
-  color:slategray;
+  font-size: 1.6em;
+  margin-top: .15em;
+  color:black;
+  font-weight: lighter;
 }

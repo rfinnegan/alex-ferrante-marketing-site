@@ -31,7 +31,12 @@ const Video = ({ video }) => {
           style={dynamicHeightStyle}
         >
         </iframe>
-        <div>{video.company} "{video.title}" {video.year}</div>
+        <div className="video-container_description">
+          {video.company}- "{video.title}" <sup><i>{video.year}</i></sup>
+          <div className="video-container-positions">
+          {video.positions}
+          </div>
+          </div>
         {/* <div className="video-about">{shouldShow ? video.about : null}</div> */}
         {/* <button onClick={onShouldShow}>about</button> */}
       </div>

@@ -13,7 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   min-height: 100%;
-  background-color: var(--background-black);
+  background-color: white;
   color: var(--white);
   display: flex;
   flex-direction: column;
@@ -26,7 +26,7 @@ body {
   padding-right: 3em;
   padding-top: 3em;
   padding-bottom: 2em; */
-  background-color: black;
+  background-color: white;
 }
 
 .app-content {

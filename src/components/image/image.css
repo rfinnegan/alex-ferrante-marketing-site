@@ -7,8 +7,6 @@
   text-align: center;
 
   width: 100%;
-
-  color: #eee;
 }
 
 .image-subcontainer {
@@ -17,10 +15,7 @@
   flex-grow: 1;
   justify-content: space-between;
 
-  text-align: center;
-
   position: relative;
-  font-size: 2em;
 }
 
 .image-container__image {
@@ -29,5 +24,15 @@
 }
 
 .image-container__description {
-  text-align: center;
+  color: black;
+  font-size: 1.55em;
+  white-space: nowrap;
+
+}
+
+.image-container-positions {
+  color: #c4c4c4;
+  font-size: .8em;
+  font-weight: 660;
+  white-space: nowrap;
 }
