@@ -4,8 +4,7 @@ const VideoList = [
   {
     id: 1,
     type: 'video',
-    company: 'Universal Pictures',
-    title: 'The Alpinist',
+    title: `Universal Pictures- "The Alpinist"`,
     year: '2021',
     positions: 'Visual Effects',
     src: "https://www.youtube.com/embed/SRpVyzagXLQ",
@@ -16,8 +15,8 @@ const VideoList = [
   {
     id: 2,
     type: 'video',
-    company: 'Tradingview',
-    title: 'Look First, Then Leap',
+    company: '',
+    title: `Tradingview- "Look First, Then Leap"`,
     year: '2021',
     positions: 'Co-Editor, Motion Graphics',
     src: "https://www.youtube.com/embed/ka3fM7euWq8",
@@ -28,7 +27,6 @@ const VideoList = [
   {
     id: 3,
     type: 'video',
-    company: 'Reel Rock',
     title: 'Reel Rock 15 (Series)',
     year: '2020',
     positions: 'Editor, Motion Graphics',
@@ -40,8 +38,7 @@ const VideoList = [
   {
     id: 4,
     type: 'video',
-    company: 'Mango',
-    title: 'The Travel Suit',
+    title: `Mango- "The Travel Suit"`,
     year: '2019',
     positions: 'Co-Editor, Motion Graphics',
     src: "https://www.youtube.com/embed/Ch-vVOLLh-M",
@@ -52,8 +49,7 @@ const VideoList = [
   {
     id: 5,
     type: 'video',
-    company: 'Google Maps',
-    title: 'Grand Canyon Kayakers',
+    title: 'Google Maps- Grand Canyon Kayakers',
     year: '2018',
     positions: 'Motion Graphics',
     src: "https://www.youtube.com/embed/WH9xGn5cIkQ",
@@ -64,8 +60,7 @@ const VideoList = [
   {
     id: 6,
     type: 'video',
-    company: 'Game Audio Network Guild',
-    title: 'Annual Awards',
+    title: 'Game Audio Network Guild Awards',
     year: '2020-2021',
     positions: 'Producer, Editor',
     src: "https://www.youtube.com/embed/MvD1HdMaP3w",
@@ -76,7 +71,6 @@ const VideoList = [
   {
     id: 7,
     type: 'video',
-    company: 'Reel Rock',
     title: 'Reel Rock 14 (Series)',
     year: '2019',
     positions: 'Assistant Editor, Motion Graphics',
@@ -88,7 +82,6 @@ const VideoList = [
   {
     id: 8,
     type: 'video',
-    company: 'Reel Rock',
     title: 'Reel Rock 13 (Series)',
     year: '2018',
     positions: 'Assistant Editor, Motion Graphics',
@@ -100,8 +93,7 @@ const VideoList = [
   {
     id: 9,
     type: 'image',
-    company: 'Redbull TV',
-    title: 'Reel Rock Seasons 5-7',
+    title: 'Redbull TV- Reel Rock Seasons 5-7',
     year: '2018-2021',
     positions: 'Editor, Assistant Editor, Motion Graphics, VFX',
     src: reelRockSeasons5To7Image,

@@ -32,11 +32,14 @@ const Video = ({ video }) => {
         >
         </iframe>
         <div className="video-container_description">
-          {video.company}- "{video.title}" <sup><i>{video.year}</i></sup>
-          <div className="video-container-positions">
+          {video.title}
+          <div className="vid-year">
+            <sup>{video.year}</sup>
+          </div>
+        </div>
+        <div className="video-container-positions">
           {video.positions}
-          </div>
-          </div>
+        </div>
         {/* <div className="video-about">{shouldShow ? video.about : null}</div> */}
         {/* <button onClick={onShouldShow}>about</button> */}
       </div>

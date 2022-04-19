@@ -25,14 +25,33 @@
 
 .image-container__description {
   color: black;
-  font-size: 1.55em;
+  font-size: 1.5em;
   white-space: nowrap;
+  display: flex;
 
+  flex-direction: row;
+  justify-content: center;
+  padding-top: .2em;
+}
+
+.year-container {
+  padding-left: .3em;
+  font-style: italic;
 }
 
 .image-container-positions {
   color: #c4c4c4;
-  font-size: .8em;
-  font-weight: 660;
+  font-size: 1.3em;
   white-space: nowrap;
 }
+
+@media screen and (max-width: 500px) {
+  .image-container__description {
+    font-size: 1.25em;
+  }
+
+  .image-container-positions {
+    font-size: 1em;
+  }
+}
+

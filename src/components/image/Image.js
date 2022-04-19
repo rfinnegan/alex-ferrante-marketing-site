@@ -37,10 +37,13 @@ const Image = ({ image }) => {
           }}
         ></div>
         <div className="image-container__description">
-          {image.company}- "{image.title}" <sup><i>{image.year}</i></sup>
-          <div className="image-container-positions">
-            {image.positions}
+          {image.title}
+          <div className="year-container">
+            <sup>{image.year}</sup>
           </div>
+        </div>
+        <div className="image-container-positions">
+          {image.positions}
         </div>
       </div>
     </div>
