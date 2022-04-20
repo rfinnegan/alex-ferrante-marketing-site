@@ -1,0 +1,13 @@
+@media screen and (min-width: 1051px) {
+  img.client-container {
+    height: 35%;
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  img.client-container {
+    height: 70%;
+    width: 70%;
+  }
+}

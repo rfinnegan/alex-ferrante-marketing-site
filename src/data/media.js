@@ -4,7 +4,7 @@ const VideoList = [
   {
     id: 1,
     type: 'video',
-    title: `Universal Pictures- "The Alpinist"`,
+    title: `Universal Pictures - "The Alpinist"`,
     year: '2021',
     positions: 'Visual Effects',
     src: "https://www.youtube.com/embed/SRpVyzagXLQ",
@@ -16,7 +16,7 @@ const VideoList = [
     id: 2,
     type: 'video',
     company: '',
-    title: `Tradingview- "Look First, Then Leap"`,
+    title: `Tradingview - "Look First, Then Leap"`,
     year: '2021',
     positions: 'Co-Editor, Motion Graphics',
     src: "https://www.youtube.com/embed/ka3fM7euWq8",
@@ -38,7 +38,7 @@ const VideoList = [
   {
     id: 4,
     type: 'video',
-    title: `Mango- "The Travel Suit"`,
+    title: `Mango - "The Travel Suit"`,
     year: '2019',
     positions: 'Co-Editor, Motion Graphics',
     src: "https://www.youtube.com/embed/Ch-vVOLLh-M",
@@ -49,7 +49,7 @@ const VideoList = [
   {
     id: 5,
     type: 'video',
-    title: 'Google Maps- Grand Canyon Kayakers',
+    title: 'Google Maps - Grand Canyon Kayakers',
     year: '2018',
     positions: 'Motion Graphics',
     src: "https://www.youtube.com/embed/WH9xGn5cIkQ",
