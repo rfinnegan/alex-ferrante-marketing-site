@@ -1,8 +1,12 @@
 import { useEffect } from 'react'
 import Portfolio from '../Portfolio'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faImdb } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
+import ClientsList from '../../components/Clients/Clients'
+
+import Email from '../../../assets/Email.png'
+import IMDB from '../../../assets/IMDB.png'
+import Instagram from '../../../assets/Instagram.png'
+
+
 import './Home.css'
 
 const Home = () => {
@@ -10,8 +14,8 @@ const Home = () => {
     document.title = 'Home'
   }, [])
 
-  const padding = {
-    padding: 10
+  const style = {
+    padding: 10,
   }
 
   return (
@@ -19,13 +23,14 @@ const Home = () => {
       <div className="home-content">
         <h1>ALEXANDER FERRANTE</h1>
         <h2>Editor | VFX | Motion GFX</h2>
-      </div>
-      <div className="icon-container">
-        <a style={padding} href="https://www.imdb.com/name/nm12223333/"><FontAwesomeIcon icon={faImdb} /></a>
-        <a style={padding} href="mailto:alexanderferrante@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
-        <a style={padding} href="https://www.instagram.com/alexferrante_/?hl=en"><FontAwesomeIcon icon={faInstagram} /></a>
+      <div>
+        <a style={style} href="https://www.imdb.com/name/nm12223333/"><img src={IMDB} height="4%" width="4%" /></a>
+        <a style={style} href="mailto:alexanderferrante@gmail.com"><img src={Email} height="4%" width="4%" /></a>
+        <a style={style} href="https://www.instagram.com/alexferrante_/?hl=en"><img src={Instagram} height="4%" width="4%" /></a>
       </div>
       <Portfolio />
+      <ClientsList />
+      </div>
       <p>Alexander Ferrante 2022 &copy;</p>
     </div>
   )
