@@ -11,7 +11,7 @@ import './Home.css'
 
 const Home = () => {
   useEffect(() => {
-    document.title = 'Home'
+    document.title = "Alexander Ferrante | Editor"
   }, [])
 
   const style = {

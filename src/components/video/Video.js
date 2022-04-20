@@ -3,6 +3,7 @@ import { mediaService } from '../../services';
 import './Video.css';
 
 const Video = ({ video }) => {
+
   const [height, setHeight] = useState(0);
   const idealAspectRatio = 16.0 / 9.0;
   const resizeThrottleDelayMs = 60;
@@ -32,10 +33,7 @@ const Video = ({ video }) => {
         >
         </iframe>
         <div className="video-container_description">
-          {video.title}
-          <div className="vid-year">
-            <sup>{video.year}</sup>
-          </div>
+          {video.title} &nbsp; <sup><i>{video.year}</i></sup>
         </div>
         <div className="video-container-positions">
           {video.positions}

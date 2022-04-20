@@ -37,12 +37,9 @@ const Image = ({ image }) => {
           }}
         ></div>
         <div className="image-container__description">
-          {image.title}
-          <div className="year-container">
-            <sup>{image.year}</sup>
+          {image.title} &nbsp; <sup><i>{image.year}</i></sup>
           </div>
-        </div>
-        <div className="image-container-positions">
+          <div className="image-container-positions">
           {image.positions}
         </div>
       </div>

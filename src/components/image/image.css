@@ -34,13 +34,8 @@
   padding-top: .2em;
 }
 
-.year-container {
-
-  padding-left: .3em;
-  font-style: italic;
-}
-
 .image-container-positions {
+  
   color: #c4c4c4;
   font-size: 1.3em;
   white-space: nowrap;
@@ -55,4 +50,3 @@
     font-size: 1em;
   }
 }
-
