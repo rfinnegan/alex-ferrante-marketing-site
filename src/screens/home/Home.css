@@ -14,6 +14,10 @@
   color: black;
 }
 
+.icon-container {
+  height: 45px;
+  width: 45px;
+}
 
 
 p {

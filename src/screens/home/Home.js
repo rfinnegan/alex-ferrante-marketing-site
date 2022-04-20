@@ -24,9 +24,9 @@ const Home = () => {
         <h1>ALEXANDER FERRANTE</h1>
         <h2>Editor | VFX | Motion GFX</h2>
       <div>
-        <a style={style} href="https://www.imdb.com/name/nm12223333/"><img src={IMDB} height="4%" width="4%" /></a>
-        <a style={style} href="mailto:alexanderferrante@gmail.com"><img src={Email} height="4%" width="4%" /></a>
-        <a style={style} href="https://www.instagram.com/alexferrante_/?hl=en"><img src={Instagram} height="4%" width="4%" /></a>
+        <a style={style} href="https://www.imdb.com/name/nm12223333/"><img src={IMDB} alt="icon" className="icon-container"/></a>
+        <a style={style} href="mailto:alexanderferrante@gmail.com"><img src={Email} alt="icon" className="icon-container" /></a>
+        <a style={style} href="https://www.instagram.com/alexferrante_/?hl=en"><img src={Instagram} alt="icon" className="icon-container" /></a>
       </div>
       <Portfolio />
       <ClientsList />
