@@ -1,6 +1,5 @@
 import React from 'react'
 import Router from './router'
-import Menu from './components/menu/Menu'
 import './styles/colors.css'
 import './styles/elements.css'
 import './styles/responsive.css'
